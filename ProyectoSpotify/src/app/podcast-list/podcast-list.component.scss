@@ -1,0 +1,9 @@
+.divPodcastList {
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+    background-color: #4b4a4a;
+}

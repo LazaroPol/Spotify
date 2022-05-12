@@ -1,0 +1,61 @@
+.buttonList{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    min-height: max-content;
+    opacity: .7;
+    width: 100%;
+    padding-right: 40px;
+    height: 40px;
+    position: relative;
+    left: 35px;
+    
+    
+}
+.crossImg{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+.text{
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: inherit;
+    position: relative;
+    left: 30px;
+    bottom: -3px;
+    
+}
+.divImg{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 2px;
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 24px;
+    width: 24px;
+    
+    justify-content: center;
+    position: absolute;
+    
+}
+.allComponent{
+    box-sizing: border-box;
+    height: 40px;
+    width: 218px;
+}
+    

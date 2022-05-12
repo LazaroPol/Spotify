@@ -1,0 +1,29 @@
+.flechas {
+   
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    
+}
+.button{
+        
+        pointer-events: auto;
+        white-space: nowrap;
+        box-sizing: border-box;
+        padding: 0;
+        touch-action: manipulation;
+        font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: rgba(103, 99, 99, 0.7);
+        border: none;
+        border-radius: 50%;
+        display: inline-flex;
+        height: 32px;
+        justify-content: center;
+        position: relative;
+        width: 32px;
+        opacity: .6;
+        margin-right: 16px;
+}

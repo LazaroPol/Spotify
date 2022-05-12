@@ -1,0 +1,5 @@
+<div class="divPodcastList">
+    <div  *ngFor="let podcast of podcastList$  | async" class="podcastList">
+    <app-podcast [podcast]="podcast"></app-podcast>
+    </div>
+</div>

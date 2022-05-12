@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 180px;
+
+    .imgContainer{
+        border-radius: 15px;
+        width: 170px;
+        height:200px;
+       
+        
+        img {
+            
+            width: 180px;
+            height:200px;
+             
+        }
+        
+    }
+    .podcastName {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    
+}
